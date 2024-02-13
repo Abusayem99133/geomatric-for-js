@@ -114,16 +114,17 @@
             <h2 class="card-title">Pentagon</h2>
             <p>Area (A) = 0.5 * p * b</p>
             <div>
-              <input type="text" name="" id="pentagon-perimeter" placeholder="perimeter">
-              <input type="text" name="" id="pentagon-apothem" placeholder="apothem">
+              <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="pentagon-perimeter" placeholder="perimeter">
+              <span>cm</span>
+              <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="pentagon-apothem" placeholder="apothem">
             </div>
             <div>
               <p>
-                Area: <span id=""></span> <span>cm<sup>2</sup></span>
+                Area: <span id="pentagon-area">0</span> <span>cm<sup>2</sup></span>
               </p>
             </div>
             <div class="card-action">
-              <button class="btn btn-primary ">Calculate</button>
+              <button onclick="pentagonArea()" class="btn btn-primary  w-full">Calculate</button>
             </div>
           </div>
         </div>
